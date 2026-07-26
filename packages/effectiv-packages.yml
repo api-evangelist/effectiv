@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+source: npm registry + github.com/effectivai
+notes: >-
+  Effectiv publishes first-party Device Intelligence SDKs for client-side device
+  fingerprinting. The broader decisioning/orchestration REST API is documented in
+  the gated developer portal (docs.effectiv.ai) and ships no public server-side
+  client library found in the registries probed (npm, PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist, crates.io).
+packages:
+  - language: javascript
+    platform: react-native
+    registry: npm
+    name: "@effectiv-ai/device-react-native"
+    version: 1.0.4
+    url: https://www.npmjs.com/package/@effectiv-ai/device-react-native
+    install: npm install @effectiv-ai/device-react-native
+    repository: https://github.com/effectivai/effectiv-device-react-native
+    homepage: https://effectiv.ai/deviceintel/
+    description: Effectiv Device SDK for React Native (device intelligence / fingerprinting).
+    official: true
+  - language: swift
+    platform: ios
+    registry: cocoapods
+    name: EffectivDeviceiOS
+    version: "1.0"
+    url: https://github.com/effectivai/EffectivDevice-iOS
+    install: pod 'EffectivDeviceiOS', '1.0'
+    source: https://github.com/effectivai/EffectivDevice-iOS.git
+    description: Effectiv Device Intelligence SDK for iOS, distributed as a CocoaPod.
+    official: true

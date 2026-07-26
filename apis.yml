@@ -1,7 +1,28 @@
 aid: effectiv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/effectiv.png
 name: Effectiv
-description: 'Effectiv is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Effectiv is a real-time fraud and risk decisioning platform for banks and
+  fintechs, founded in 2021 and acquired by Socure in 2024 for approximately
+  $136M. Its AI-driven decisioning engine and orchestration layer let risk teams
+  automate decisions across the customer lifecycle, integrating 50+ third-party
+  data and solution providers behind one developer-friendly API. The platform
+  spans identity verification (KYC and Know-Your-Business KYB), payment and
+  identity fraud controls across card, ACH, wire, check, and real-time payment
+  rails, AML transaction monitoring, and credit underwriting, backed by a unified
+  case-management workspace and client-side Device Intelligence SDKs for iOS and
+  React Native.
 url: https://raw.githubusercontent.com/api-evangelist/effectiv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +30,23 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: socure
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Security
+- Fraud Detection
+- Risk
+- Decisioning
+- Identity Verification
+- KYC
+- KYB
+- AML
+- Transaction Monitoring
+- Fintech
+- Device Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +56,22 @@ maintainers:
 common:
 - type: Website
   url: https://effectiv.ai/
+- type: DeveloperPortal
+  url: https://docs.effectiv.ai/
+- type: Documentation
+  url: https://docs.effectiv.ai/
+- type: GitHubOrganization
+  url: https://github.com/effectivai
+- type: Packages
+  url: packages/effectiv-packages.yml
+- type: SDKs
+  url: packages/effectiv-packages.yml
+- type: DomainSecurity
+  url: security/effectiv-domain-security.yml
+- type: LLMsTxt
+  url: llms/effectiv-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
