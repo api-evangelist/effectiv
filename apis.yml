@@ -45,7 +45,23 @@ x-acquired-by: socure
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
+x-docs-platform: readme
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-10-03
 tags:
+- Company
+- Security
+- Fraud Prevention
+- Risk Management
+- Decisioning
+- Identity Verification
+- KYC
+- KYB
+- AML
+- Transaction Monitoring
+- Fintech
+- Device Intelligence
+tags_raw:
 - Company
 - Security
 - Fraud Detection
